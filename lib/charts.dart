@@ -50,7 +50,7 @@
 //           ? MediaQuery.of(context).size.height / 5
 //           : MediaQuery.of(context).size.height / 4.5;
 //       return Center(
-//         child: Column(
+//         child: Data(
 //           mainAxisAlignment: MainAxisAlignment.center,
 //           children: <Widget>[
 //             getFilledTrackStyle(),
@@ -68,21 +68,21 @@
 //         child: Row(
 //           mainAxisAlignment: MainAxisAlignment.center,
 //           children: <Widget>[
-//             Column(
+//             Data(
 //               mainAxisAlignment: MainAxisAlignment.center,
 //               children: <Widget>[
 //                 getFilledTrackStyle(),
 //                 const Center(child: Text('Filled track')),
 //               ],
 //             ),
-//             Column(
+//             Data(
 //               mainAxisAlignment: MainAxisAlignment.center,
 //               children: <Widget>[
 //                 getFilledProgressStyle(),
 //                 const Center(child: Text('Filled progress')),
 //               ],
 //             ),
-//             Column(
+//             Data(
 //               mainAxisAlignment: MainAxisAlignment.center,
 //               children: <Widget>[
 //                 getGradientProgressStyle(),
